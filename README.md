@@ -19,4 +19,4 @@ python example.py --model path/to/model_weights.pt --source path/to/img_folder -
 - Depends on mode.If mode is detect,then the columns would be `["name","xmin","ymin","xmax","ymax"]`.
   If mode is track,then there will be an `"id"` column as well.
 - Output has no index column
-- "xmin",...,"ymax" are all normalized to 0-1. 
+- `"xmin",...,"ymax"` are all normalized to 0-1. 
